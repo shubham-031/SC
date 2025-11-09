@@ -1,0 +1,70 @@
+Enter chromosome length: 8
+Enter Parent 1 (binary): 1 0 1 1 0 1 0 1
+Enter Parent 2 (binary): 0 1 0 0 1 0 1 0
+
+===============================
+ BINARY CODED GA CROSSOVER MENU 
+===============================
+1. Single-Point Crossover
+2. Two-Point Crossover
+3. Multi-Point Crossover
+4. Uniform Crossover
+5. Uniform Crossover with Mask
+6. Exit
+Enter your choice: 1
+
+Crossover Point: 4
+
+Parent 1: 10110101
+Parent 2: 01001010
+
+Offspring 1: 10111010
+Offspring 2: 01000101
+------------------------------------------------------------
+
+Enter your choice: 2
+
+Crossover Points: 2 and 6
+
+Parent 1: 10110101
+Parent 2: 01001010
+
+Offspring 1: 10001001
+Offspring 2: 01110110
+------------------------------------------------------------
+
+Enter your choice: 3
+Enter number of crossover points: 3
+
+Crossover Points: 1 4 6
+
+Parent 1: 10110101
+Parent 2: 01001010
+
+Offspring 1: 11100101
+Offspring 2: 00011010
+------------------------------------------------------------
+
+Enter your choice: 4
+
+Parent 1: 10110101
+Parent 2: 01001010
+
+Offspring 1: 10011100
+Offspring 2: 01100011
+------------------------------------------------------------
+
+Enter your choice: 5
+
+Mask: 1 0 1 1 0 1 0 0
+
+Parent 1: 10110101
+Parent 2: 01001010
+
+Offspring 1: 11110000
+Offspring 2: 00001111
+------------------------------------------------------------
+
+Enter your choice: 6
+
+Exiting... Thank you!

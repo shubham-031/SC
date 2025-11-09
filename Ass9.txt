@@ -1,0 +1,45 @@
+Enter chromosome length: 8
+Enter chromosome (binary bits): 1 0 1 1 0 1 0 1
+
+====================================
+  BINARY CODED GA - MUTATION MENU   
+====================================
+1. Bit-Flip Mutation
+2. Swap Mutation
+3. Inversion Mutation
+4. Scramble Mutation
+5. Uniform Mutation
+6. Exit
+Enter your choice: 1
+
+Original Chromosome: 10110101
+Bit flipped at position: 4
+Mutated Chromosome: 10111101
+------------------------------------------------------------
+
+Enter your choice: 2
+Original Chromosome: 10110101
+Swapped positions: 2 and 6
+Mutated Chromosome: 10010111
+------------------------------------------------------------
+
+Enter your choice: 3
+Original Chromosome: 10110101
+Inversion between positions: 2 and 6
+Mutated Chromosome: 10011101
+------------------------------------------------------------
+
+Enter your choice: 4
+Original Chromosome: 10110101
+Scramble between positions: 3 and 6
+Mutated Chromosome: 10101111
+------------------------------------------------------------
+
+Enter your choice: 5
+Original Chromosome: 10110101
+Enter mutation probability (0.0 - 1.0): 0.2
+Mutated Chromosome: 10100101
+------------------------------------------------------------
+
+Enter your choice: 6
+Exiting... Thank you!

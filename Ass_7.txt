@@ -1,0 +1,60 @@
+Population and Fitness:
+ C1 (Fitness = 80)
+ C2 (Fitness = 10)
+ C3 (Fitness = 6)
+ C4 (Fitness = 4)
+
+======================================
+   GENETIC ALGORITHM SELECTION MENU   
+======================================
+1. Roulette Wheel Selection
+2. Rank Selection
+3. Tournament Selection
+4. Canonical (Deterministic) Selection
+5. Steady-State Selection
+6. Stochastic Universal Sampling (SUS)
+7. Elitism Selection
+8. Exit
+Enter your choice: 1
+
+[ Roulette Wheel Selection ]
+Probabilities: 0.8 0.1 0.06 0.04 
+Selected: C1 C1 C2 C1 
+------------------------------------------------------------
+
+Enter your choice: 2
+[ Rank Selection ]
+Probabilities: 0.4 0.2 0.3 0.1 
+Selected: C1 C3 C2 C1 
+------------------------------------------------------------
+
+Enter your choice: 3
+Enter tournament size (k): 2
+[ Tournament Selection ] (k=2)
+Selected: C1 C1 C2 C1 
+------------------------------------------------------------
+
+Enter your choice: 4
+[ Canonical (Deterministic) Selection ]
+Selected: C1 C2 C3 C4 
+------------------------------------------------------------
+
+Enter your choice: 5
+[ Steady-State Selection ]
+Survivors: C1 C2 
+New Individuals: NewC1 NewC2 
+------------------------------------------------------------
+
+Enter your choice: 6
+[ Stochastic Universal Sampling (SUS) ]
+Probabilities: 0.8 0.1 0.06 0.04 
+Selected: C1 C1 C2 C3 
+------------------------------------------------------------
+
+Enter your choice: 7
+[ Elitism Selection ]
+Elite Chromosomes: C1 C2 
+------------------------------------------------------------
+
+Enter your choice: 8
+Exiting... Thank you!
